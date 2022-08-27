@@ -8,11 +8,10 @@ int    ft_solve(int **tab, int *rules, int index)
     {
         print_tab(tab, SIZE);
         return (1);
-    }
-        
+    } 
     if (index < SIZE * SIZE)
     {
-         test = 1;
+        test = 1;
         while (test <= SIZE )
         {
             if (test_line_ok(test, tab, index) && test_col_ok(test, tab, index))
